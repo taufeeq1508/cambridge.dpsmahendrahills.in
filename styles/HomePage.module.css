@@ -1,0 +1,332 @@
+.div{
+  position: relative;
+  background-color: #D6FFE6;
+  float: left;
+  margin-left: 35px;
+  top: -4px;
+}
+.col_20{
+  width: 20%;
+}
+.div:before,
+.div:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+.div,
+.div:before,
+.div:after {
+  width:  120px;
+  height: 120px;
+  border-top-right-radius: 30%;
+}
+.div {
+  transform: rotate(30deg) skewX(-30deg) scale(1,.866);
+}
+.div:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0,-50%);
+}
+.div:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+.divorg{
+  position: relative;
+  background-color: #EA760B;
+  float: left;
+  margin-left: -123px;
+  top: 40px;
+}
+.divorg:before,
+.divorg:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+.divorg,
+.divorg:before,
+.divorg:after {
+  width:  120px;
+  height: 120px;
+  border-top-right-radius: 30%;
+}
+.divorg {
+  transform: rotate(30deg) skewX(-30deg) scale(1,.866);
+}
+.divorg:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0,-50%);
+}
+.divorg:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+.divrgbl{
+  position: relative;
+  background-color: #D6FFE6;
+  margin-right: -20px;
+  top: 132px;
+  float: right;
+}
+.divrgbl:before,
+.divrgbl:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+.divrgbl,
+.divrgbl:before,
+.divrgbl:after {
+  width:  120px;
+  height: 120px;
+  border-top-right-radius: 30%;
+}
+.divrgbl {
+  transform: rotate(330deg) skewX(-30deg) scale(1,.866);
+}
+.divrgbl:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0,-50%);
+}
+.divrgbl:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+.divrgorg{
+  position: relative;
+  background-color:  #EA760B;
+  ;
+  margin-right: -120px;
+  top: 180px;
+  float: right;
+}
+.divrgorg:before,
+.divrgorg:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+.divrgorg,
+.divrgorg:before,
+.divrgorg:after {
+  width:  120px;
+  height: 120px;
+  border-top-right-radius: 30%;
+}
+.divrgorg {
+  transform: rotate(330deg) skewX(-30deg) scale(1,.866);
+}
+.divrgorg:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0,-50%);
+}
+.divrgorg:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+.circlediv{
+    background-color: #FADED8;
+    width: 75px;
+    height: 75px;
+    align-items: center !important;    
+    margin-left: 0px;
+}
+.cardt{
+  top: 0px;
+  border-radius: 20px;
+  height: 200px;
+}
+.cw{
+  width: 40%;
+}
+.circledivtxt{
+  color: #155B2E;
+  font-weight: 600;
+  align-items: center !important;  
+  margin-top: -84px;
+  width: fit-content; 
+  
+}
+.labela{
+  text-decoration: none !important;
+  color: #333;
+  font-weight: 600;
+  list-style: none;
+}
+.labela::before{
+  content: "🟡";
+  color: yellow;
+  display: inline-block; 
+  width: 3em;
+  margin-left: -1.20em
+}
+.polygonimg{
+  width: 50px;  
+  position: absolute;
+  margin-top: 35px;
+}
+.polygonleftimg{
+  width: 50px;  
+  position: absolute;
+  margin-left: -21px;
+  margin-top: -90px;
+}
+.flowerimg{
+  width: 50px;  
+  position: absolute;
+  margin-left: -55px;
+    margin-top: -45px;
+}
+.imagespeciality{
+    border: 10px solid #F39F8B;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.polyspan{
+  margin-right: 28px;
+}
+.bigpylft{
+  width: 179px;
+    position: absolute;
+    margin-top: -145px;
+}
+.bigpyrght{
+  width: 179px;
+    margin-top: -257px
+}
+.bigrghtspan{
+  margin-right: -12px;
+}
+
+.boardbg{
+  background-image: url(/assets/images/homepolybg.svg);  
+  max-width: 100%; 
+  max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    padding-top: 30px;
+}
+@media only screen and (min-width: 1347px) {    
+  .font14{
+    font-size: 12px;
+  }
+  .boardbg{    
+    background-size: contain;
+  }
+}
+@media only screen and (min-width: 1440px) {    
+    .boardbg{    
+    background-size: cover;
+  }
+  .cardt{
+   
+    height: 267px;
+    width: 248px;
+  }
+  .circlediv{
+    
+    width: 110px;
+    height: 110px;
+      
+    margin-left: 4px;
+  }
+  .circledivtxt{
+      
+    margin-top: -116px;
+    font-size: 68px;
+    
+  }
+  
+  .labela{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 777px) {    
+  .circledivtxt{
+    color: #155B2E;
+    font-weight: 500;
+    align-items: center !important;  
+    margin-top: -76px;
+    width: fit-content; 
+    
+  }
+  .circlediv{
+    background-color: #FADED8;
+    width: 60px;
+    height: 60px;
+    align-items: center !important;    
+    margin-left: 4px;
+}
+  .boardbg{
+    
+      background-size: contain;
+  }
+  
+  
+}
+@media only screen and (min-width: 560px) {
+  .bigrghtspan{
+    display: none;
+  }
+  .bigpylft{
+    display: none;
+  }
+  
+}
+@media only screen and (max-width: 560px) {    
+  .circledivtxt{
+    color: #155B2E;
+    font-weight: 500;
+    align-items: center !important;  
+    margin-top: -69px;
+    width: fit-content; 
+    
+  }
+  .hidden-xs{
+    display: none;
+  }
+  .col_20{
+    width: 50%;
+    margin-bottom: 25px;
+  }
+  .circlediv{
+    background-color: #FADED8;
+    width: 60px;
+    height: 60px;
+    align-items: center !important;    
+    margin-left: 4px;
+}
+  .boardbg{
+    
+      background-size: cover;
+  }
+  
+  .bigpyrght{
+    width: 140px;
+      margin-top: -267px
+  }
+  .bigrghtspan{
+    margin-right: 0px;
+  }
+  .bigpylft{
+    width: 140px;
+      position: absolute;
+      margin-top: -60px;
+  }
+  .h1home{
+    font-size: 20px;
+      margin-bottom: 0px;
+      position: relative;
+    z-index: 11;
+  }
+  .polygonimg{
+    width: 50px;  
+    position: absolute;
+    margin-top: 0px;
+    overflow-x: hidden;
+    right: 0;
+  }
+  .polygonleftimg{    
+    margin-top: -35px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1920px) {
+  .boardbg {
+    padding-top: 70px;
+  }
+}

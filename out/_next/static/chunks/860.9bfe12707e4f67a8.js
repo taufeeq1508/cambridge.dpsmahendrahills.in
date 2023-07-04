@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[860],{6860:function(){$(window).on("scroll",(function(){$(window).scrollTop()>150?($(".header").addClass("active"),$("#nav1").addClass("nav1change"),$("#nav2").addClass("nav2change")):($(".header").removeClass("active"),$("#nav1").removeClass("nav1change"),$("#nav2").removeClass("nav2change"))}))}}]);

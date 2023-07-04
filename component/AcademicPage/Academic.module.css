@@ -1,0 +1,339 @@
+.acadimg{
+    width: 100%;
+}
+.btnview{
+    width: 100%;
+    border-radius: 25px;
+    color: #235055;
+    border: 1px solid #F39F8B;
+}
+.btnview:hover{
+    background-color: #f8f9fa;
+    border-color: #dddfe0;
+}
+.sectionbg{
+    background-image: url(/assets/images/acaschoolprog.jpg);
+    max-height: 100%;
+    background-position: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MobileMenu{
+    display: none;
+}
+.divimg{
+    float: right !important;
+    
+}
+.cbseamenities{
+    margin-top: -110px;
+}
+.divspan{
+    right: 0px;
+    position: absolute;
+    max-width: 16vw;
+    margin-top: -140px;
+}
+
+.divleftspan{
+    left: 0px;
+    position: absolute;
+    max-width: 16vw;
+    margin-top: -40px;
+}
+.divleftspanoffer{
+    left: 0px;
+    position: absolute;
+    max-width: 16vw;
+    margin-top: -220px;
+}
+.offerimg{
+    width: 256px;
+}
+.btnvoucher{
+    width: 210px;
+    padding: 7px 1px 7px 1px;
+    background-color: #155B2E;
+    color: #ffff;
+}
+.btnvoucher:hover{    
+    background-color: #134d27;
+    color: #ffff;
+}
+.facilidiv{
+    background-color: #E58E3E;
+    border-radius: 34px;
+}
+/* .btnlabbot{
+    margin-top: -25px;
+    margin-right: -14px;
+} */
+.facilicard{
+    padding-left: 10px;
+    padding-right: 10px;
+    top: -80px;
+    border-radius: 16px !important;
+    border: none;
+}
+.cardbottomimg{
+    width: 38px;
+    margin-top: -12px;
+}
+.facilidivtop{
+    padding-left: 144px;
+    padding-right: 144px;
+}
+.facilidivbttop{
+    padding-left: 260px;
+    padding-right: 260px;
+}
+.facilidivbttop1{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+@media only screen and (max-width: 580px) {    
+    
+    .facilidivtop{
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+    .facilidivbttop{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .divspan{
+        max-width: 10vw;
+        margin-top: -50px;
+    }
+    .divleftspanoffer{
+        max-width: 10vw;
+        margin-top: -120px;
+    }
+    .MobileMenu{
+        display: block;
+    }
+    .desktopTab{
+        display: none;
+    }
+    
+}
+@media (min-width: 1208px) and (max-width: 1280px) {   
+    
+    .facilidivbttop1{
+        padding-left: 214px;
+        padding-right: 274px;
+    }
+    
+       
+}
+@media (min-width: 760px) and (max-width: 1200px) {   
+    
+    .facilidivbttop1{
+        padding-left: 64px;
+        padding-right: 152px
+    }
+    
+       
+}
+@media (min-width: 560px) and (max-width: 759px) {   
+    
+    .facilidivbttop1{
+        padding-left: 13px;
+        padding-right: 86px;
+    }
+    
+       
+}
+@media (min-width: 560px) and (max-width: 1180px) {    
+    
+    .facilidivtop{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .facilidivbttop{
+        padding-left:0px;
+        padding-right: 0px;
+    }
+    
+    
+       
+}
+@media (min-width: 590px) and (max-width: 790px) {   
+    
+    .acadpara{
+        margin-bottom: 5.8rem !important;
+    }
+    
+}
+@media (min-width: 760px) and (max-width: 1180px) {    
+    
+    
+    .acadpara{
+        margin-bottom: 2.4rem !important;
+    }
+    
+}
+@media only screen and (max-width: 470px) {    
+    .facilidivtop{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .facilidivbttop{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .facilidivbttop1{
+        padding-left: 0px;
+        padding-right: 72px;
+    }
+    .facilicard{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 10px;
+        
+    }
+    .sectionbg h1{
+        margin-top: 48px;
+    }
+    .cardsize{
+        width: 84%;
+    }
+    
+}
+@media only screen and (min-width: 1470px) {    
+    .acadimg{
+        width: 520px;
+    }
+    
+}
+
+/* modelstyle */
+.btnmodel{
+    margin-top: -17px;
+    margin-right: -21px;
+    background: transparent;
+    border: none;
+    float: right;
+    backface-visibility: hidden;
+}
+.btnimg{
+    width: 30px;
+}
+.headerimg{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 70px
+}
+.headerdiv{
+    margin-top: -15px;
+    border: none !important;
+    padding: 0px !important;
+}
+.btnmodelapply{
+    width: 130px;
+    padding: 5px 15px;
+    background: #EA760B;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.navbtn .active{    
+    background-color: #155B2E;
+}
+.navbtn{
+    display: block;
+    text-align: -webkit-center;
+    padding: 16px 20px;
+    border-radius: 14px !important;    
+    color: #000 !important;
+    /* margin-bottom: 16px; */
+    font-size: 12px !important;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+    height: 90%;
+    background: none;
+
+}
+.navbtn p{
+    font-size: 14px;
+    text-align: center;
+    width: 60px;
+    margin-top: 10px;
+}
+.navbtn img{
+    display: flex;
+    width: 60px;
+    padding: 10px 0px;
+}
+.navbtn:hover{
+    background-color: #155B2E;
+    /* border: 2px solid #0d381c;  */
+    color: #FFFFfF !important;
+}
+.modelradus{
+    border-radius: 20px;
+}
+.skills li::before {
+    content: "\2022";
+    color: #155B2E;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    font-size: 21px;
+    margin-right: 6px;
+}
+.skills{
+    list-style: none;
+    text-align: start;
+}
+.btnborder{
+    border: 1px solid #E58E3E;
+}
+.btntop{
+    margin-top: -50px!important;
+}
+.modtable thead{
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align:center;
+    vertical-align: text-top;
+}
+.modtable table{
+    border: 1px solid;
+}
+.modtable thead th{
+    border: 1px solid;
+}
+.modtable tbody tr td{
+    border: 1px solid;
+}
+.btnreq{
+    padding: 7px 35px 7px 35px;
+}
+
+@media (min-width: 1600px) and (max-width: 1920px) {
+    .sectionbg{
+        background-image: url(/assets/images/acaschoolprog2.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media (min-width: 2000px) and (max-width: 3000px) {
+    .sectionbg{
+        background-image: url(/assets/images/acaschoolprog2.png);
+        background-position: center;
+        background-size: cover;
+        margin-top: 50px !important;
+        padding-top: 155px !important;
+        padding-bottom: 55px!important;
+    }
+}
+
+.missionul1::before{
+    content: "🟡";
+    color: yellow;
+    display: inline-block; 
+    width: 3em;
+    margin-left: -1.20em
+}

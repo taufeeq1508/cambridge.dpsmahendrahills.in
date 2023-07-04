@@ -1,0 +1,58 @@
+#lsq-form-wrapper {
+    width: 100%;
+}
+#lsq-form-wrapper .lp-form-header-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 4% !important;
+}
+#lsq-form-wrapper .enquiry-form {
+    width: 80%;
+}
+#lsq-form-wrapper .form-label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+#lsq-form-wrapper .number-input {
+    height: 40px !important;
+    border-radius: 8px !important;
+}
+#lsq-form-wrapper .flag-dropdown {
+    height: 46px !important;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#lsq-form-wrapper .flag-input {
+    height: 40px !important;
+    border-top-left-radius: 8px;
+}
+#lsq-form-wrapper select {
+    -moz-appearance: none;
+    /* for Safari, Chrome, Opera */
+    -webkit-appearance: none;
+}
+
+#lsq-form-wrapper input,
+textarea {
+    /* width: 48% !important; */
+}
+#lsq-form-wrapper .field-control-group {
+    width: 48% !important;
+    margin-bottom: 12px;
+}
+
+#lsq-form-wrapper .query-control {
+    width: 100% !important;
+}
+#lsq-form-wrapper .lp-form-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#lsq-form-wrapper .register-image {
+    height: 120px;
+}

@@ -1,0 +1,75 @@
+.fs-36px {
+    font-size: 36px;
+}
+.fs-32px {
+    font-size: 32px;
+}
+.fs-18px {
+    font-size: 18px;
+}
+.textc-dark {
+    color: #080a12;
+}
+.textc-orange {
+    color: #ea760b;
+}
+.textc-green {
+    color: #155b2e;
+}
+.textc-green {
+    color: #005c3d;
+}
+.text-lightdark {
+    color: #333333;
+}
+
+.btn-green {
+    background-color: #155b2e !important;
+    color: #ffffff !important;
+    min-width: 190px;
+    outline: none;
+    box-shadow: none;
+}
+.btn-green:focus,
+.btn-green:hover {
+    box-shadow: none !important;
+}
+.input-orange {
+    outline: 0;
+    box-shadow: none !important;
+    height: 48px !important;
+    padding: auto 16px;
+    border-radius: 15px;
+    border: 1px solid #ff7a00 !important;
+}
+.input-orange:focus {
+    box-shadow: none;
+}
+
+.modal-content .close-modal {
+    position: absolute;
+    cursor: pointer;
+    right: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+}
+
+body {
+    padding-right: 0px !important;
+}
+/* body.modal-open {
+    height: 100vh;
+    overflow-y: hidden;
+} */
+/* .modal-fullwidth {
+    width: 100vw !important;
+} */
+/*
+
+.modal-dialog{
+    overflow-y: initial !important
+} */
+/* .collab-modalbody .collab-img-icon {
+    height: 100px;
+} */

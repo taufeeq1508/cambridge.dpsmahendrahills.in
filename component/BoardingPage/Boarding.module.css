@@ -1,0 +1,312 @@
+.dotimg {
+  margin-top: -176px;
+  width: 14%;
+  display: flex;
+  right: 0px;
+  margin-right: 0px;
+}
+.spodotimg {
+  margin-top: -176px;
+  width: 14%;
+  display: flex;
+  float: right !important;
+  right: 0px;
+  margin-right: 0px;
+}
+.tablecont {
+  max-width: 100%;
+  height: auto;
+  border: 14px solid transparent;
+  display: grid;
+}
+.navalumni {
+  margin-left: 30px !important;
+}
+
+.offerimg {
+  width: 80px;
+  border-radius: 10px;
+}
+
+.bigpylft {
+  width: 140px;
+  position: absolute;
+  margin-top: -145px;
+  left: 0px;
+}
+.bigpyrght {
+  width: 140px;
+  margin-top: -189px;
+}
+.bigrghtspan {
+  /* margin-right: -12px; */
+  right: 0;
+  position: absolute;
+}
+.contactbg {
+  background-image: url(/assets/images/contact.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cambrcontactbg {
+  background-image: url(/assets/images/cambcontact.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.atpertxt {
+  color: #327178;
+}
+
+.sportamenibg {
+  background-image: url(/assets/images/sporamen.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.expertiesbg {
+  background-image: url(/assets/images/experties.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cbseintrobg {
+  background-image: url(/assets/images/cbseint.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.acdmicprogrbg {
+  background-image: url(/assets/images/acadpgbg.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cbacdmicprogrbg {
+  background-image: url(/assets/images/cbseacadpgbg.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.becometousbg {
+  background-image: url(/assets/images/becomepart.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btnenquiry {
+  margin: 6px 6px;
+  background-color: #155b2e;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 26px;
+  font-weight: 500;
+  width: 220px;
+}
+
+.btnenvisit {
+  margin: 6px 6px;
+  background-color: #ea760b;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 26px;
+  font-weight: 500;
+  width: 120px;
+}
+.btnbralumni {
+  margin: 6px 6px;
+  background-color: #ea760b;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 26px;
+  font-weight: 500;
+  width: 180px;
+}
+.btnenapply {
+  margin: 6px 6px;
+
+  background: #235055;
+
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 26px;
+  font-weight: 500;
+  width: 120px;
+}
+.acadmicolr {
+  background: #ffe3d8;
+}
+.alustorclr {
+  background: #f4fcf7;
+}
+.pathwaybg {
+  background-image: url(/assets/images/cambridge.png);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.joinpgbg {
+  background-image: url(/assets/images/joinpg.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alumnistorbg {
+  background-image: url(/assets/images/alstoriesbg.svg);
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.circlediv {
+  background-color: #faded8;
+  width: 75px;
+  height: 76px;
+  align-items: center !important;
+  margin-left: 4px;
+}
+
+.circledivtxt {
+  color: #ff7a00;
+  font-weight: 600;
+  align-items: center !important;
+  margin-top: -86px;
+  width: fit-content;
+}
+
+.cardt {
+  top: 0px;
+  border-radius: 20px;
+}
+
+.imgpath {
+  margin-top: -555px;
+  right: 0px !important;
+}
+
+.btnjoinpg {
+  margin: 6px 6px;
+  background: #327178;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 26px;
+  font-weight: 500;
+  width: 220px;
+}
+
+.btnarrow {
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #155b2e;
+  background-color: transparent;
+}
+
+.plant {
+  width: 6%;
+  margin-top: -100px;
+  margin-right: -45px;
+}
+
+@media only screen and (max-width: 990px) {
+  .paragf {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .colwidth {
+    width: 100%;
+  }
+  .colwidth p {
+    margin-right: 10px !important ;
+  }
+  .bigpyrght {
+    margin-top: -157px;
+  }
+  .bottom {
+    padding-bottom: 46px;
+  }
+  .topm {
+    padding-top: 76px;
+  }
+  .imgpath {
+    margin-top: -361px;
+    right: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  .cambridgepara {
+    font-size: 11px;
+  }
+  .h2style {
+    font-size: 16px;
+  }
+  .h3style {
+    font-size: 16px;
+    margin-top: 76px;
+  }
+  .mright {
+    margin-right: 30px !important;
+  }
+  .mleft {
+    margin-left: 25px !important;
+  }
+  .h4alumni {
+    margin-top: 127px !important;
+  }
+  .btnjoinpg {
+    margin-top: -146px;
+  }
+  .bigpyrght {
+    width: 82px;
+  }
+  .bigpylft {
+    width: 82px;
+  }
+}
+@media only screen and (min-width: 606px) {
+  .h2style {
+    margin-top: 0px;
+  }
+  .h3style {
+    margin-top: 76px;
+  }
+  .h4style {
+    font-size: 43px;
+    font-weight: 600 !important;
+  }
+}
+@media (min-width: 1600px) and (max-width: 4000px) {
+  .contactbg {
+    background-image: url(/assets/images/contact1920.svg);
+  }
+  .sportamenibg {
+    background-image: url(/assets/images/sporamen1920.svg);
+  }
+  .expertiesbg {
+    background-image: url(/assets/images/experties1920.svg);
+  }
+}

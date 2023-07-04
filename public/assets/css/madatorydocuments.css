@@ -1,0 +1,40 @@
+.mandatory-documents,
+.gallery-academic-awards {
+  width: 100%;
+  border-color: #ccc;
+  font-size: 18px;
+}
+.mandatory-documents-result,
+.gallery-academic-awards {
+  width: 100%;
+  border-color: #ccc;
+  font-size: 18px;
+}
+.mandatory-documents td,
+.gallery-academic-awards td {
+  padding: 8px 5px;
+}
+.mandatory-documents th,
+.gallery-academic-awards th {
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+.gallery-academic-awards td a {
+  color: #48a7d4;
+  text-decoration: none;
+}
+@media only screen and (max-width: 426px) {
+  .mandatory-documents,
+  .gallery-academic-awards {
+    width: 100%;
+    border-color: #ccc;
+    font-size: 11px;
+  }
+  .mandatory-documents-result,
+  .gallery-academic-awards {
+    width: 100%;
+    border-color: #ccc;
+    font-size: 9px;
+  }
+}

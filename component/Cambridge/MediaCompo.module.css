@@ -1,0 +1,347 @@
+/* Events Container */
+.eventsContainer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.newsviewbtn {
+  background: #155b2e;
+  color: white;
+  /* margin-right: 20px; */
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: -30px;
+  margin-top: 5px;
+  /* max-width: 100%; */
+}
+
+.newsviewbtn:hover {
+  color: #eee;
+}
+
+/* .rowscroll{
+    height: 480px !important;
+    overflow-y: hidden;
+} */
+.rowscroll:hover {
+  overflow-y: overlay;
+}
+
+.iframe {
+  /* position: absolute; */
+  width: 560px;
+  height: 360px;
+}
+
+.adate {
+  font-size: 9px;
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+.adate:hover {
+  font-size: 9px;
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+.ullia {
+  background-color: #419e62;
+}
+
+.ullia a {
+  color: #fff;
+}
+
+.ullia a:hover {
+  background-color: #1d6938;
+  color: #fff;
+}
+
+.adatetop {
+  margin-top: -14px;
+}
+
+.profileimg {
+  margin-right: -23px;
+}
+
+.siderofileimg {
+  margin-right: -13px;
+}
+
+.sideslide {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sideimg {
+  width: 52%;
+}
+
+.linkid {
+  text-decoration: none;
+  color: #121212;
+}
+
+.linkid:hover {
+  text-decoration: underline;
+  color: #121212;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.carouselcaption {
+  position: unset;
+  color: #121212;
+}
+
+.sliderradius {
+  border-top-left-radius: 38px;
+  border-top-right-radius: 38px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 45px;
+}
+
+.carouselind {
+  bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 0.75rem; */
+}
+
+.carouselind li {
+  /* background-color: #155b2e !important; */
+}
+
+.textgreen {
+  color: #155b2e;
+}
+
+.adventurebg {
+  background-image: url("/assets/images/adventure.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  max-height: 100%;
+  padding: 29px 30px;
+}
+
+.adventurebg p {
+  margin-bottom: 0;
+}
+
+.btnappy {
+  background: #ea760b;
+  border-radius: 20px;
+  border: 1px solid #ea760b;
+  padding: 7px 27px 7px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -30px !important;
+}
+
+.formcontrol {
+  border: 1px solid #ea760b !important;
+  font-size: 14px !important;
+  font-family: "Nunito", sans-serif;
+  border-radius: 10px !important;
+  margin-bottom: 1.5rem !important;
+  height: 48px !important;
+  color: #020202 !important;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.formcontrol:read-only {
+  background: transparent;
+}
+
+.formselect {
+  border: 1px solid #ea760b !important;
+  font-size: 14px !important;
+  font-family: "Nunito", sans-serif;
+  border-radius: 10px !important;
+  margin-bottom: 1.5rem !important;
+  height: 48px !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.formControlArea {
+  border: 1px solid #ea760b !important;
+  font-size: 14px !important;
+  font-family: "Nunito", sans-serif;
+  border-radius: 10px !important;
+  margin-bottom: 1.5rem !important;
+  height: 90px !important;
+  resize: none;
+  color: #020202 !important;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.bookimg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+  /* top: -60px; */
+  /* position: relative; */
+}
+
+.vheight {
+  height: 300px;
+}
+
+.radiustopleft {
+  border-top-left-radius: 20px;
+}
+
+.radiustopright {
+  border-top-right-radius: 20px;
+}
+
+.radiusbotleft {
+  border-bottom-left-radius: 20px;
+}
+
+.radiusbotright {
+  border-bottom-right-radius: 20px;
+}
+
+.cardborder {
+  border: 2px solid transparent;
+}
+
+.toppadding {
+  margin-top: 1.5rem !important;
+}
+
+.flowerimg {
+  width: 42px;
+  margin-top: -118px;
+  position: relative;
+  margin-left: -30px;
+}
+
+.newsbackgroundimg {
+  background-image: url(/assets/images/eventsimg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.applybtn {
+  color: white;
+  display: block;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-size: 13px;
+  background-color: #ea760b;
+  border-radius: 4px;
+}
+
+.applyBtnDrpdwn {
+  color: white;
+  display: block;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-size: 13px;
+  margin-left: 10px;
+  background-color: #ea760b;
+  border-radius: 4px;
+  border: 0px;
+  outline: none;
+}
+
+.applyBtnDrpdwn:hover {
+  color: white;
+  display: block;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-size: 13px;
+  margin-left: 10px;
+  background-color: #ea760b;
+  border-radius: 4px;
+}
+
+.imgCard {
+  position: relative;
+}
+
+.imgCard:hover .imgCardHoverBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.3;
+}
+
+.imgCardHoverBox {
+  position: absolute;
+  display: none;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #005c3d;
+  opacity: 0;
+  z-index: 10;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+.instamedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dddddd;
+}
+
+.instamedia:hover {
+  box-shadow: 0px 24px 48px rgba(51, 9, 0, 0.08);
+}
+
+@media only screen and (max-width: 768px) {
+  h2.textgreen {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  p.textgreen {
+    font-size: 11px;
+  }
+
+  .btnappy {
+    font-size: 10px;
+    padding: 2px 7px 2px 8px;
+  }
+
+  .adventurebg {
+    background-size: cover;
+    padding: 12px 13px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .bookimg {
+    display: none;
+  }
+  .sliderradius {
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+  }
+}
